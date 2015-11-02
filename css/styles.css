@@ -3,11 +3,27 @@
 /***************/
 
 /* Color Palette */
+.color-1 
+{
+    background: #222222;
+}
 
-
+.color-2
+{
+     background: #a10022;   
+}
 /* Textures or Patterns*/
+.pattern-1
+{
+    background-image: url(../img/congruent_outline.png);
+    background-size: 200%;
+}
 
-
+.pattern-2
+{
+    background-image: url(../img/footer_lodyas.png);   
+    background-size: 550%;
+}
 /* Imagery */
 
 
@@ -15,8 +31,37 @@
 
 
 /* Typography */
+body {
+    background: #222222;
+    font-family: 'Hind Siliguri', sans-serif;   
+    color: #EEEFFF;
+}
 
+ul {
+   list-style: none; 
+}
 
+a {
+    color: #ABABAB;
+    text-decoration: none;
+    
+}
+
+h1, h2 {
+ text-decoration: underline;
+}
+
+a:hover {
+     font-size: 102%;   
+     color: #EEEFFF;
+}
+
+button 
+{
+    background: #EEEFFF;
+    box-shadow: 2px 2px 20px;
+    border-radius: 5px;
+}
 /* Forms */
 
 
