@@ -12,6 +12,12 @@
 {
      background: #a10022;   
 }
+
+.color-3
+{
+    background: #EFFFFF;   
+}
+
 /* Textures or Patterns*/
 .pattern-1
 {
@@ -24,11 +30,32 @@
     background-image: url(../img/footer_lodyas.png);   
     background-size: 550%;
 }
-/* Imagery */
+/* Imagery 
+   IN HTML */
 
+.imagery-1
+{
+      width: 110%;
+}
 
+.imagery-1 img
+{
+    width: 500px;
+}
+
+ .imagery-2
+{
+    height: 130%;
+}
+
+.imagery-2 img
+{
+    height: auto;
+    width: 200px;    
+}
 /* Icons */
 
+/* IN HTML */
 
 /* Typography */
 body {
@@ -64,8 +91,28 @@ button
 }
 /* Forms */
 
+input[type="text"], textarea
+{
+    padding: 5px;
+ background-color: #222222;    
+}
+
+input, select, textarea{
+    color: #EEFFFF;
+}
+
+textarea:focus, input:focus {
+    color: #EEFFFF;
+}
 
 /* Tables */
 
+table
+{
+ text-align: center;   
+}
 
 /* Cards */
+
+
+
